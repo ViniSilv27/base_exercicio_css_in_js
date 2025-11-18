@@ -8,8 +8,6 @@ export const VagasDescricao = styled.ul`
   margin-top: 32px;
 
   @media (max-width: 768px) {
-    .vagas {
-      grid-template-columns: 1fr;
-    }
+    grid-template-columns: 1fr;
   }
 `

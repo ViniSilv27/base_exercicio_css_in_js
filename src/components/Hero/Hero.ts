@@ -21,14 +21,8 @@ export const Banner = styled.form`
   }
 
   @media (max-width: 768px) {
-    .form {
-      height: auto;
-      padding: 24px 0;
-    }
-
-    .heroTitle {
-      font-size: 32px;
-    }
+    height: auto;
+    padding: 24px 0;
   }
 
   div {
@@ -39,4 +33,8 @@ export const Banner = styled.form`
 export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 `
